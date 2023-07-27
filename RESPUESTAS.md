@@ -10,6 +10,8 @@ Escribe respuestas de la etapa 1 acá
 
 ## ETAPA 2
 
-Escribe respuestas de la etapa 2 acá
-
-...
+¿Qué pasa si cambias el nombre del servicio de `postgres` a `db`? ¿Qué otros cambios tendrías que hacer?
+Los contenedores se quedan en estado RUNNING (postgres, flyway).
+No corren las migraciones.
+Por consola me llega:
+migration_flyway     | WARNING: Connection error: The connection attempt failed. (Caused by postgres) Retrying in 1 sec...
