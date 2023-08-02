@@ -61,3 +61,13 @@ En el atributo `build`:
  - `movies-front` NO tiene un atributo context.
 
 ¿Qué pasa si los dejas iguales?
+Los servicios se levantan correctamente y de la misma forma.
+
+
+------
+Notas:
+
+El contenedor de movies_api se levanta y se reinicia 
+
+- 0eb04e3fe6d7   movies_api                    "/movies-api -b loca…"   38 seconds ago   Up Less than a second   0.0.0.0:8000->8000/tcp, :::8000->8000/tcp   movies_api_container
+- 0eb04e3fe6d7   movies_api                    "/movies-api -b loca…"   About a minute ago   Restarting (1) 36 seconds ago              movies_api_container
